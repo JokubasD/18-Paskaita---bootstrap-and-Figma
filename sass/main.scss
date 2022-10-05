@@ -1,0 +1,18 @@
+@use 'reset';
+@use 'vars' as v;
+@use 'common';
+
+.contact{
+    background-color: v.$primary-bg-color;
+}
+.contact-form{
+    background-color: v.$primary-light-color;
+    &__title{
+        font-family: 'Epilogue';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 32px;
+        color: v.$secondary-color;
+    }
+}

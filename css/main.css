@@ -79,18 +79,102 @@ p {
   margin-right: auto;
 }
 
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+  padding-left: 23px;
+  padding-right: 23px;
+}
+
 .contact {
   background-color: #28293E;
+  padding-top: 80px;
+  padding-bottom: 76px;
 }
 
 .contact-form {
   background-color: #fff;
+  border-radius: 6px;
+  padding: 57px 28px 48px;
 }
 .contact-form__title {
-  font-family: "Epilogue";
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
   line-height: 32px;
   color: #391400;
+  margin-top: 0;
+  margin-bottom: 23px;
+}
+.contact-form .input-fields {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 16px;
+}
+.contact-form .input-fields .text-input {
+  border: 1px solid #F3D1BF;
+  padding: 7px 16px 7px;
+  width: 100%;
+  border-radius: 6px;
+  font-size: 16px;
+  line-height: 32px;
+  color: rgba(57, 20, 0, 0.64);
+}
+.contact-form .input-fields .text-input::-webkit-input-placeholder {
+  color: rgba(57, 20, 0, 0.64);
+  font-size: 16px;
+  line-height: 32px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.contact-form .input-fields .text-input::-moz-placeholder {
+  color: rgba(57, 20, 0, 0.64);
+  font-size: 16px;
+  line-height: 32px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.contact-form .input-fields .text-input:-ms-input-placeholder {
+  color: rgba(57, 20, 0, 0.64);
+  font-size: 16px;
+  line-height: 32px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.contact-form .input-fields .text-input::-ms-input-placeholder {
+  color: rgba(57, 20, 0, 0.64);
+  font-size: 16px;
+  line-height: 32px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.contact-form .input-fields .text-input::placeholder {
+  color: rgba(57, 20, 0, 0.64);
+  font-size: 16px;
+  line-height: 32px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.contact-form .input-fields .text-input.area {
+  min-height: 96px;
+  resize: none;
+}
+.contact-form .text-input.form-select {
+  padding: 14px 16px 13px;
+}
+.contact-form .btn.form {
+  text-transform: uppercase;
+  font-weight: 900;
+  margin-top: 16px;
+  margin-bottom: 0;
+  padding: 18px 30px;
+  background-color: #EF6D58;
+  color: #fff;
+  font-size: 14px;
+  border: none;
+  border-radius: 6px;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
 }/*# sourceMappingURL=main.css.map */

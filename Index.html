@@ -10,11 +10,20 @@
 </head>
 <body>
     <section class="contact">
-        <div class="container contact-grid">
+        <div class="container contactGrid">
             <div class="contact-form">
                 <h4 class="contact-form__title">Get In Touch</h4>
-                <input type="text" placeholder="Your Email">
-                <input type="" placeholder="Subject">
+                <div class="input-fields">
+                    <input type="text" placeholder="Your Email" class="text-input">
+                    <select class="text-input form-select">
+                        <option selected value="" >Subject</option>
+                        <option value="Wed dev">Web Dev</option>
+                        <option value="Mobile app">Mobile App</option>
+                    </select>
+                    <textarea class="text-input area" placeholder="Message"></textarea>
+                    <button type="submit" class="btn form">Submit Now</button>
+                </div>
+                
             </div>
         </div>
         

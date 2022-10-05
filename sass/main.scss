@@ -4,15 +4,62 @@
 
 .contact{
     background-color: v.$primary-bg-color;
+    padding-top: 80px;
+    padding-bottom: 76px;
 }
 .contact-form{
     background-color: v.$primary-light-color;
+    border-radius: 6px;
+    padding: 57px 28px 48px;
     &__title{
-        font-family: 'Epilogue';
         font-style: normal;
         font-weight: 700;
         font-size: 24px;
         line-height: 32px;
         color: v.$secondary-color;
+        margin-top: 0;
+        margin-bottom: 23px;
+    }
+
+    .input-fields{
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        .text-input{
+            border: 1px solid #F3D1BF;
+            padding: 7px 16px 7px;
+            width: 100%;
+            border-radius: 6px;
+            font-size: 16px;
+            line-height: 32px;
+            color: rgba(57, 20, 0, 0.64);
+            &::placeholder{
+                color: rgba(57, 20, 0, 0.64);
+                font-size: 16px;
+                line-height: 32px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+            &.area{
+                min-height: 96px;
+                resize: none;
+            }
+        }
+        
+    }
+    .text-input.form-select{
+        padding: 14px 16px 13px;
+    }
+    .btn.form{
+        text-transform: uppercase;
+        font-weight: 900;
+        margin-top: 16px;
+        margin-bottom: 0;
+        padding: 18px 30px;
+        background-color: #EF6D58;
+        color: #fff;
+        font-size: 14px;
+        border: none;
+        border-radius: 6px;
+        align-self: flex-end;
     }
 }
